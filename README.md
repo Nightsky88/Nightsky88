@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Nightsky88
 - 👀 I’m interested in web designing
-- 🌱 I’m currently learning we developmemt
+- 🌱 I’m currently learning web developmemt
 - 💞️ I’m looking to collaborate on web based projects
 
 
