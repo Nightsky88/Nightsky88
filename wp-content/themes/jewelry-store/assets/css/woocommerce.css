@@ -1,0 +1,322 @@
+.woocommerce table.shop_table,
+.woocommerce-cart .cart-collaterals .cart_totals table{
+    border-collapse: collapse;
+}
+
+.woocommerce table.shop_table a,
+.woocommerce-cart .cart-collaterals .cart_totals table a{
+    text-decoration: none;
+}
+
+.woocommerce table.shop_attributes th,
+.woocommerce table.shop_attributes td{
+    padding: 1rem;
+}
+
+#add_payment_method table.cart img, 
+.woocommerce-cart table.cart img, 
+.woocommerce-checkout table.cart img{
+    width: 70px;
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+    min-width: 130px;
+}
+
+.woocommerce a.remove {
+    font-size: 1rem;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.product_meta{
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--bs-gray-300);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.woocommerce-error, 
+.woocommerce-info, 
+.woocommerce-message{
+    border-color: var(--bs-primary);
+}
+
+.woocommerce-info::before {
+    color: var(--bs-primary);
+}
+
+.select2-dropdown {
+    border-color: var(--bs-gray-300);
+}
+
+.select2-container--default .select2-selection--single {
+    border-color: var(--bs-gray-300);
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 6px 28px 6px 16px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 6px;
+    top: 7px;
+}
+
+.select2-container .select2-selection--single {
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: var(--bs-secondary);
+    font-weight: 400;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    -webkit-font-smoothing: antialiased;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:hover {
+    background-color: var(--bs-secondary);
+    color: var(--bs-white);
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt.disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt.disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:disabled[disabled],
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt.disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt.disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:disabled[disabled],
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.alt:disabled[disabled]:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt.disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt.disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:disabled[disabled],
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:disabled[disabled]:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt.disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt.disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:disabled,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:disabled:hover,
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:disabled[disabled],
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.alt:disabled[disabled]:hover
+,:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt.disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt.disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:disabled[disabled],
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt.disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt.disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:disabled[disabled],
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:disabled[disabled]:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt.disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt.disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:disabled[disabled],
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt:disabled[disabled]:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt.disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt.disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:disabled,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:disabled:hover,
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:disabled[disabled],
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.alt:disabled[disabled]:hover {
+    background-color: var(--bs-secondary);
+    color: var(--bs-white);
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button {
+    background-color: var(--bs-gray-300);
+    color: var(--bs-secondary);
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button:hover, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:hover, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button{
+    padding: 0.65rem 1.25rem;
+    line-height: var(--bs-body-line-height);
+    border: 1px solid #ebe9eb;
+}
+
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-add-button, 
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse, 
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse{
+    min-width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: var(--bs-gray-300);
+    color: var(--bs-secondary);
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse{
+    padding: 0 15px;
+}
+
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse .feedback + a{
+    margin-left: 10px;
+}
+
+.hidden-title-form button i, 
+.wishlist-title a.show-title-form i, 
+.wishlist_manage_table tfoot a.create-new-wishlist i, 
+.wishlist_manage_table tfoot button.submit-wishlist-changes i, 
+.wishlist_table .add_to_cart.button i, 
+.wishlist_table .ask-an-estimate-button i, 
+.yith-wcwl-add-button>a i, 
+.yith-wcwl-wishlist-new button i, 
+.yith-wcwl-wishlist-search-form button.wishlist-search-button i{
+    margin-right: 0;
+}
+
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist{
+    display: inline-block;
+}
+
+.single-product .main .product .summary .yith-wcwl-add-to-wishlist a span {
+    display: none;
+}
+
+.woocommerce .quantity .qty {
+    padding: 0.25rem;
+    min-height: 46px;
+}
+
+.single-product .main .product .summary .price {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    gap: 8px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--bs-gray-200);
+    color: var(--bs-seconadary);
+}
+
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price {
+    color: var(--bs-primary);
+}
+
+.woocommerce div.product p.price ins, 
+.woocommerce div.product span.price ins{
+    text-decoration: none;
+}
+
+.woocommerce #review_form #respond p {
+    margin: 0 0 1.5625rem;
+}
+
+.comment-form-rating, 
+.comment-form-cookies-consent {
+    flex-basis: 100%;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background-color: var(--bs-gray-300);
+    color: var(--bs-secondary);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a{
+    font-weight: 600;
+}
+
+
+.yith_wcwl_wishlist_footer .yith-wcwl-share{
+    float: none;
+}
+
+.wishlist_table .product-add-to-cart a{
+    padding: 4px 8px;
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    display: inline-block !important;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.woocommerce-product-gallery{
+    border: 1px solid var(--bs-gray-300);
+}
+
+.flex-viewport{
+    border-bottom: 1px solid var(--bs-gray-300);
+}
+
+.flex-control-thumbs li + li{
+    border-left: 1px solid var(--bs-gray-300);
+}
+
+.woocommerce .products .product_rating{
+    text-align: center;
+}
+
+.woocommerce .products .star-rating{
+    font-size: 1rem !important;
+    display: inline-block !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .325rem;
+}
+
+.woocommerce .star-rating::before,
+.woocommerce .star-rating span::before{
+    color: var(--bs-yellow);
+}

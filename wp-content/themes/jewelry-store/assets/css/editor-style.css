@@ -1,0 +1,307 @@
+p {
+    position: relative;
+    display: block;
+    word-break: break-word;
+    margin-bottom: 1.25rem;
+}
+
+blockquote {
+    font-weight: 400;
+    border-left: 0.25em solid;
+    padding: 2.25rem;
+    position: relative;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+}
+
+blockquote span:after, 
+blockquote span:before {
+    content: '';
+    font-family: var(--bs-font-awesome);
+    font-weight: 900;
+    font-size: 1.875rem;
+    position: absolute;
+    color: var(--bs-primary);
+}
+
+blockquote span:after {
+    content: "\f10e";
+    bottom: -12px;
+    right: 50px;
+}
+
+blockquote span:before {
+    content: "\f10d";
+    top: -12px;
+    left: 50px;
+}
+
+blockquote p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+blockquote cite, 
+blockquote small {
+	line-height: 1.3;
+	padding-top: 15px;
+	display: block;
+}
+
+blockquote em, 
+blockquote i, 
+blockquote cite {
+    font-style: italic;
+}
+
+/* Gallery Styles */
+
+.gallery {
+  margin: 0 -1.1666667% 1.75em;
+}
+
+.gallery-item {
+  display: inline-block;
+  max-width: 33.33%;
+  padding: 0 1.1400652% 2.2801304%;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+.gallery-columns-1 .gallery-item {
+  max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-icon img {
+  margin: 0 auto;
+}
+
+.gallery-caption {
+  color: #686868;
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.6153846154;
+  padding-top: 0.5384615385em;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+  display: none;
+}
+
+/* End Gallery Style */
+
+.wp-caption-text{
+
+}
+
+.bypostauthor{
+
+}
+
+/* Image Alignments and captions */
+
+img.alignnone{ 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+#attachment_907 { 
+    width: 100%; 
+}
+
+img.alignleft, 
+.wp-caption.alignleft{ 
+    margin-right: 30px; 
+}
+
+img.alignright, .wp-caption.alignright {
+    margin-left: 30px;
+    float: right;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+img.wp-caption .alignnone { 
+    display: block; 
+    margin: 0 auto; 
+    height: auto; 
+    width: 100%; 
+}
+
+a img.alignright { 
+    float: right; 
+}
+
+a img.alignnone { 
+    margin: 5px 20px 20px 0; 
+}
+
+a img.alignleft { 
+    float: left; 
+}
+
+a img.aligncenter { 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.aligncenter { 
+    margin-top: .5em; 
+    margin-bottom: .5em; 
+}  
+
+.alignleft { 
+    float: left; 
+    margin: .5em 20px .5em 0; 
+}
+
+.alignright { 
+    float: right; 
+    margin: .5em 0 .5em 20px; 
+}
+
+.wp-caption .wp-caption-text, 
+.gallery-caption, 
+.entry-caption { 
+    clear: left;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.wp-caption.alignright { 
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption p.wp-caption-text { 
+    font-family: 'Open Sans'; 
+    font-size: 14px; 
+    margin: 12px 0; 
+    text-align: center; 
+    font-weight: 400; 
+    font-style: italic; 
+    line-height: 1.5em; 
+}
+
+.wp-caption.alignleft { 
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f8f8f8;
+    border-color: #eee;
+    border-image: initial;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.wp-caption > img {
+    max-width: 100%;
+}
+
+.bypostauthor{
+
+}
+
+form.post-password-form label, 
+form.post-password-form input {
+    display: inline-block;
+}
+
+/* Accessibility */
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+
+#page, 
+#main {
+    background: var(--bs-white);
+}
+
+#main[tabindex="-1"]:focus {
+  outline: 0;
+}
